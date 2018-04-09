@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Clive's custom focus tab",
+  "version": "1.0",
+  "description": "Block facebook and twitter",
+  
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://www.facebook.com/*", "https://www.twitter.com/*"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
